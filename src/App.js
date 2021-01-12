@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Folder from "./Components/Folder"
+import File from "./Components/File"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {visibile: true}
+  }
+  toggleEdit = (event) => {
+  
+    if (this.state.visibile === false){
+      this.setState({visibile: true})
+    } else {
+      this.setState({visibile: false})
+    }
+  }
+  render() {
+    return (
+      <div className="App">
+        <button onClick={this.toggleEdit}>Toggle</button>
+        <Folder />
+        {this.state.visibile && (
+        <ul>
+          <li> File2 </li>
+          <li> File2 </li>
+          <li> File2 </li>
+        </ul>
+        )}
+        
+      </div>
+    );
+  }
 }
 
 export default App;

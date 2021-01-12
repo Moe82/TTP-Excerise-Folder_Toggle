@@ -1,7 +1,40 @@
-.App {
-  text-align: center;
+button {
+  margin:10px;
+  color: black;
+  background: #f0c258;
+  
+}
+ul{
+  position: relative;
+  top: -50%;
+  margin:0 auto;
+  width:50px;}
+* {
+  background-color:#626369;
 }
 
+p {
+  font-size:10px;
+}
+
+.App {
+  text-align: center;
+  color: #f0c258;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.folder-img{
+  height: 50px;
+  width: 50px;
+  margin: 1px;
+  vertical-align:middle;
+}
+
+.file-img{
+  height: 20px;
+  width: 20px;
+  vertical-align:middle;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
