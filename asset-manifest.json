@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/TTP-Excerise-Folder_Toggle/static/css/main.9a9e2ac9.chunk.css",
+    "main.js": "/TTP-Excerise-Folder_Toggle/static/js/main.35263d79.chunk.js",
+    "main.js.map": "/TTP-Excerise-Folder_Toggle/static/js/main.35263d79.chunk.js.map",
+    "runtime-main.js": "/TTP-Excerise-Folder_Toggle/static/js/runtime-main.f3573840.js",
+    "runtime-main.js.map": "/TTP-Excerise-Folder_Toggle/static/js/runtime-main.f3573840.js.map",
+    "static/js/2.a08ff9bb.chunk.js": "/TTP-Excerise-Folder_Toggle/static/js/2.a08ff9bb.chunk.js",
+    "static/js/2.a08ff9bb.chunk.js.map": "/TTP-Excerise-Folder_Toggle/static/js/2.a08ff9bb.chunk.js.map",
+    "static/js/3.3165a75c.chunk.js": "/TTP-Excerise-Folder_Toggle/static/js/3.3165a75c.chunk.js",
+    "static/js/3.3165a75c.chunk.js.map": "/TTP-Excerise-Folder_Toggle/static/js/3.3165a75c.chunk.js.map",
+    "index.html": "/TTP-Excerise-Folder_Toggle/index.html",
+    "static/css/main.9a9e2ac9.chunk.css.map": "/TTP-Excerise-Folder_Toggle/static/css/main.9a9e2ac9.chunk.css.map",
+    "static/js/2.a08ff9bb.chunk.js.LICENSE.txt": "/TTP-Excerise-Folder_Toggle/static/js/2.a08ff9bb.chunk.js.LICENSE.txt",
+    "static/media/folder.49938010.png": "/TTP-Excerise-Folder_Toggle/static/media/folder.49938010.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3573840.js",
+    "static/js/2.a08ff9bb.chunk.js",
+    "static/css/main.9a9e2ac9.chunk.css",
+    "static/js/main.35263d79.chunk.js"
+  ]
+}
